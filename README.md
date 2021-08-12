@@ -5,9 +5,9 @@ Play the game by guessing NHL scores of 2021 teams and earn points.
 This is a python guessing game that allows the player to earn points for each guess that is correct. Some guesses have two retries before points are awarded, only when there is a wrong selection. Then the player is allowed to play three rounds before the game is over. Then display the score. The maximum score is 9.
 
 # Requirements
-1.	Use a dataset to get data for the game. To be uploaded to s3
-2.	Use a DynamoDB to store the game results.
-3.	Use boto3 to make API calls
+1.	Use a dataset to get data for the game. To be uploaded to AWS S3 bucket. You can also configure it to be stored on your local HDD.
+2.	Use a DynamoDB to store the game results. Alternatively, a local MongoDB can used.
+3.	Use boto3 to make API calls.
 
 # Rules of the game
 1. Select which team you think won the match. You can choose to answer a draw match. You earn 1 pt if correct and 0 otherwise.
